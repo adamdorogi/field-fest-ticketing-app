@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		798AA6D9202DC53500718504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6D8202DC53500718504 /* AppDelegate.swift */; };
+		798AA6DB202DC53500718504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6DA202DC53500718504 /* ViewController.swift */; };
+		798AA6DE202DC53500718504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798AA6DC202DC53500718504 /* Main.storyboard */; };
+		798AA6E0202DC53500718504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798AA6DF202DC53500718504 /* Assets.xcassets */; };
+		798AA6E3202DC53500718504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798AA6E1202DC53500718504 /* LaunchScreen.storyboard */; };
+		798AA6EE202DC53500718504 /* FieldFestTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6ED202DC53500718504 /* FieldFestTicketTests.swift */; };
+		798AA6F9202DC53500718504 /* FieldFestTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6F8202DC53500718504 /* FieldFestTicketUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		798AA6EA202DC53500718504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798AA6CD202DC53500718504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798AA6D4202DC53500718504;
+			remoteInfo = FieldFestTicket;
+		};
+		798AA6F5202DC53500718504 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798AA6CD202DC53500718504 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798AA6D4202DC53500718504;
+			remoteInfo = FieldFestTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		798AA6D5202DC53500718504 /* FieldFestTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldFestTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798AA6D8202DC53500718504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		798AA6DA202DC53500718504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		798AA6DD202DC53500718504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		798AA6DF202DC53500718504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		798AA6E2202DC53500718504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		798AA6E4202DC53500718504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798AA6E9202DC53500718504 /* FieldFestTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldFestTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		798AA6ED202DC53500718504 /* FieldFestTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldFestTicketTests.swift; sourceTree = "<group>"; };
+		798AA6EF202DC53500718504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		798AA6F4202DC53500718504 /* FieldFestTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldFestTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		798AA6F8202DC53500718504 /* FieldFestTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldFestTicketUITests.swift; sourceTree = "<group>"; };
+		798AA6FA202DC53500718504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		798AA6D2202DC53500718504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798AA6E6202DC53500718504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798AA6F1202DC53500718504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		798AA6CC202DC53500718504 = {
+			isa = PBXGroup;
+			children = (
+				798AA6D7202DC53500718504 /* FieldFestTicket */,
+				798AA6EC202DC53500718504 /* FieldFestTicketTests */,
+				798AA6F7202DC53500718504 /* FieldFestTicketUITests */,
+				798AA6D6202DC53500718504 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		798AA6D6202DC53500718504 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				798AA6D5202DC53500718504 /* FieldFestTicket.app */,
+				798AA6E9202DC53500718504 /* FieldFestTicketTests.xctest */,
+				798AA6F4202DC53500718504 /* FieldFestTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798AA6D7202DC53500718504 /* FieldFestTicket */ = {
+			isa = PBXGroup;
+			children = (
+				798AA6D8202DC53500718504 /* AppDelegate.swift */,
+				798AA6DA202DC53500718504 /* ViewController.swift */,
+				798AA6DC202DC53500718504 /* Main.storyboard */,
+				798AA6DF202DC53500718504 /* Assets.xcassets */,
+				798AA6E1202DC53500718504 /* LaunchScreen.storyboard */,
+				798AA6E4202DC53500718504 /* Info.plist */,
+			);
+			path = FieldFestTicket;
+			sourceTree = "<group>";
+		};
+		798AA6EC202DC53500718504 /* FieldFestTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				798AA6ED202DC53500718504 /* FieldFestTicketTests.swift */,
+				798AA6EF202DC53500718504 /* Info.plist */,
+			);
+			path = FieldFestTicketTests;
+			sourceTree = "<group>";
+		};
+		798AA6F7202DC53500718504 /* FieldFestTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				798AA6F8202DC53500718504 /* FieldFestTicketUITests.swift */,
+				798AA6FA202DC53500718504 /* Info.plist */,
+			);
+			path = FieldFestTicketUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		798AA6D4202DC53500718504 /* FieldFestTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798AA6FD202DC53500718504 /* Build configuration list for PBXNativeTarget "FieldFestTicket" */;
+			buildPhases = (
+				798AA6D1202DC53500718504 /* Sources */,
+				798AA6D2202DC53500718504 /* Frameworks */,
+				798AA6D3202DC53500718504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FieldFestTicket;
+			productName = FieldFestTicket;
+			productReference = 798AA6D5202DC53500718504 /* FieldFestTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		798AA6E8202DC53500718504 /* FieldFestTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798AA700202DC53500718504 /* Build configuration list for PBXNativeTarget "FieldFestTicketTests" */;
+			buildPhases = (
+				798AA6E5202DC53500718504 /* Sources */,
+				798AA6E6202DC53500718504 /* Frameworks */,
+				798AA6E7202DC53500718504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798AA6EB202DC53500718504 /* PBXTargetDependency */,
+			);
+			name = FieldFestTicketTests;
+			productName = FieldFestTicketTests;
+			productReference = 798AA6E9202DC53500718504 /* FieldFestTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		798AA6F3202DC53500718504 /* FieldFestTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798AA703202DC53500718504 /* Build configuration list for PBXNativeTarget "FieldFestTicketUITests" */;
+			buildPhases = (
+				798AA6F0202DC53500718504 /* Sources */,
+				798AA6F1202DC53500718504 /* Frameworks */,
+				798AA6F2202DC53500718504 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798AA6F6202DC53500718504 /* PBXTargetDependency */,
+			);
+			name = FieldFestTicketUITests;
+			productName = FieldFestTicketUITests;
+			productReference = 798AA6F4202DC53500718504 /* FieldFestTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		798AA6CD202DC53500718504 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Adam Dorogi-Kaposi";
+				TargetAttributes = {
+					798AA6D4202DC53500718504 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					798AA6E8202DC53500718504 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 798AA6D4202DC53500718504;
+					};
+					798AA6F3202DC53500718504 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 798AA6D4202DC53500718504;
+					};
+				};
+			};
+			buildConfigurationList = 798AA6D0202DC53500718504 /* Build configuration list for PBXProject "FieldFestTicket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 798AA6CC202DC53500718504;
+			productRefGroup = 798AA6D6202DC53500718504 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				798AA6D4202DC53500718504 /* FieldFestTicket */,
+				798AA6E8202DC53500718504 /* FieldFestTicketTests */,
+				798AA6F3202DC53500718504 /* FieldFestTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		798AA6D3202DC53500718504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798AA6E3202DC53500718504 /* LaunchScreen.storyboard in Resources */,
+				798AA6E0202DC53500718504 /* Assets.xcassets in Resources */,
+				798AA6DE202DC53500718504 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798AA6E7202DC53500718504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798AA6F2202DC53500718504 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		798AA6D1202DC53500718504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798AA6DB202DC53500718504 /* ViewController.swift in Sources */,
+				798AA6D9202DC53500718504 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798AA6E5202DC53500718504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798AA6EE202DC53500718504 /* FieldFestTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798AA6F0202DC53500718504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798AA6F9202DC53500718504 /* FieldFestTicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		798AA6EB202DC53500718504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798AA6D4202DC53500718504 /* FieldFestTicket */;
+			targetProxy = 798AA6EA202DC53500718504 /* PBXContainerItemProxy */;
+		};
+		798AA6F6202DC53500718504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798AA6D4202DC53500718504 /* FieldFestTicket */;
+			targetProxy = 798AA6F5202DC53500718504 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		798AA6DC202DC53500718504 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798AA6DD202DC53500718504 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		798AA6E1202DC53500718504 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798AA6E2202DC53500718504 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		798AA6FB202DC53500718504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		798AA6FC202DC53500718504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		798AA6FE202DC53500718504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FieldFestTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		798AA6FF202DC53500718504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FieldFestTicket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		798AA701202DC53500718504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FieldFestTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldFestTicket.app/FieldFestTicket";
+			};
+			name = Debug;
+		};
+		798AA702202DC53500718504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FieldFestTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FieldFestTicket.app/FieldFestTicket";
+			};
+			name = Release;
+		};
+		798AA704202DC53500718504 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FieldFestTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FieldFestTicket;
+			};
+			name = Debug;
+		};
+		798AA705202DC53500718504 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FieldFestTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FieldFestTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		798AA6D0202DC53500718504 /* Build configuration list for PBXProject "FieldFestTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798AA6FB202DC53500718504 /* Debug */,
+				798AA6FC202DC53500718504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798AA6FD202DC53500718504 /* Build configuration list for PBXNativeTarget "FieldFestTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798AA6FE202DC53500718504 /* Debug */,
+				798AA6FF202DC53500718504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798AA700202DC53500718504 /* Build configuration list for PBXNativeTarget "FieldFestTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798AA701202DC53500718504 /* Debug */,
+				798AA702202DC53500718504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798AA703202DC53500718504 /* Build configuration list for PBXNativeTarget "FieldFestTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798AA704202DC53500718504 /* Debug */,
+				798AA705202DC53500718504 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 798AA6CD202DC53500718504 /* Project object */;
+}
