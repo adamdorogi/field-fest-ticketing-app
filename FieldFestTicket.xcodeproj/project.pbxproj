@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791D5F652031940C00D6D172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791D5F642031940C00D6D172 /* Assets.xcassets */; };
+		791D5F672031B06300D6D172 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791D5F662031B06300D6D172 /* TableViewController.swift */; };
 		798AA6D9202DC53500718504 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6D8202DC53500718504 /* AppDelegate.swift */; };
 		798AA6DB202DC53500718504 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6DA202DC53500718504 /* ViewController.swift */; };
 		798AA6DE202DC53500718504 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798AA6DC202DC53500718504 /* Main.storyboard */; };
-		798AA6E0202DC53500718504 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798AA6DF202DC53500718504 /* Assets.xcassets */; };
 		798AA6E3202DC53500718504 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 798AA6E1202DC53500718504 /* LaunchScreen.storyboard */; };
 		798AA6EE202DC53500718504 /* FieldFestTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6ED202DC53500718504 /* FieldFestTicketTests.swift */; };
 		798AA6F9202DC53500718504 /* FieldFestTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798AA6F8202DC53500718504 /* FieldFestTicketUITests.swift */; };
@@ -34,11 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		791D5F642031940C00D6D172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		791D5F662031B06300D6D172 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		798AA6D5202DC53500718504 /* FieldFestTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FieldFestTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798AA6D8202DC53500718504 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		798AA6DA202DC53500718504 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		798AA6DD202DC53500718504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		798AA6DF202DC53500718504 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		798AA6E2202DC53500718504 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		798AA6E4202DC53500718504 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		798AA6E9202DC53500718504 /* FieldFestTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FieldFestTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,9 +101,10 @@
 			children = (
 				798AA6D8202DC53500718504 /* AppDelegate.swift */,
 				798AA6DA202DC53500718504 /* ViewController.swift */,
+				791D5F662031B06300D6D172 /* TableViewController.swift */,
 				798AA6DC202DC53500718504 /* Main.storyboard */,
-				798AA6DF202DC53500718504 /* Assets.xcassets */,
 				798AA6E1202DC53500718504 /* LaunchScreen.storyboard */,
+				791D5F642031940C00D6D172 /* Assets.xcassets */,
 				798AA6E4202DC53500718504 /* Info.plist */,
 			);
 			path = FieldFestTicket;
@@ -233,7 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				798AA6E3202DC53500718504 /* LaunchScreen.storyboard in Resources */,
-				798AA6E0202DC53500718504 /* Assets.xcassets in Resources */,
+				791D5F652031940C00D6D172 /* Assets.xcassets in Resources */,
 				798AA6DE202DC53500718504 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				798AA6DB202DC53500718504 /* ViewController.swift in Sources */,
+				791D5F672031B06300D6D172 /* TableViewController.swift in Sources */,
 				798AA6D9202DC53500718504 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63WK2PDALP;
 				INFOPLIST_FILE = FieldFestTicket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicket;
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 63WK2PDALP;
 				INFOPLIST_FILE = FieldFestTicket/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adamdorogi.FieldFestTicket;
